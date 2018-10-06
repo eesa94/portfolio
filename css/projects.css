@@ -1,0 +1,122 @@
+#project-index a:hover {
+  background-color: transparent;
+  text-decoration: none; }
+
+#project-index p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400; }
+
+#project-index img {
+  margin-bottom: 15px;
+  border-radius: 6px; }
+
+#project-col-item {
+  margin-bottom: 20px; }
+
+.project-panel {
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 10px lightgrey; }
+
+.project-panel h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: black; }
+
+.project-panel h5 {
+  font-size: 1.6rem;
+  font-weight: 400; }
+
+.project-panel img {
+  transition: 0.3s; }
+
+.project-panel img:hover {
+  transform: scale(1.035);
+  opacity: 0.9; }
+
+.project-show {
+  margin-top: 110px; }
+  .project-show .row {
+    transition: 300ms; }
+
+@media (max-width: 576px) {
+  .project-show {
+    margin-top: 75px;
+    padding-top: 30px; } }
+.project-show .img-fluid {
+  height: auto; }
+
+.project-show h4 {
+  font-size: 2rem; }
+
+.project-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 2.5px;
+  margin-right: 50px;
+  margin-left: 50px; }
+
+.project-btn {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  border-radius: 5px;
+  transition: 0.2s; }
+  .project-btn a:hover {
+    text-decoration: none; }
+
+.project-body {
+  margin: 40px auto;
+  text-align: justify;
+  padding: 15px;
+  box-shadow: 1px 1px 10px lightgrey; }
+
+.project-body,
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8rem;
+  line-height: 25px;
+  letter-spacing: 1.5px; }
+
+.project-body a {
+  transition: 0.3s; }
+
+.divider {
+  width: 80%;
+  height: 5px;
+  margin: 10px auto; }
+
+.menu {
+  font-size: 1.8rem;
+  z-index: 10;
+  margin: 20px 0; }
+
+#back-to-portfolio {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 30px; }
+
+.fa-arrow-left {
+  margin-right: 5px; }
+
+.project-dropdown-button {
+  width: 300px;
+  height: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 30px; }
+
+.fa-level-down {
+  margin-left: 5px; }
+
+/*# sourceMappingURL=projects.css.map */
