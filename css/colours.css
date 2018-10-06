@@ -1,0 +1,147 @@
+a {
+  color: #5dfdd1; }
+
+.background-primary {
+  background-color: #41526f; }
+
+.color-primary {
+  color: #41526f; }
+
+.background-secondary {
+  background-color: #5dfdd1; }
+
+.color-secondary {
+  color: #5dfdd1; }
+
+.background-tertiary {
+  background-color: #ccf9ff; }
+
+.color-tertiary {
+  color: #ccf9ff; }
+
+.box-shadow {
+  box-shadow: 2px 2px 7px #5dfdd1; }
+
+#article-index a:visited {
+  color: black; }
+
+.unsplash-badge:hover {
+  color: #5dfdd1; }
+
+.article-body p::selection {
+  background: #5dfdd1; }
+
+.article-body a:hover {
+  color: #41526f; }
+
+.menu a:visited {
+  color: #41526f; }
+
+#back-to-blog:hover {
+  background-color: #41526f;
+  color: #5dfdd1; }
+
+.blog-dropdown-button:hover {
+  background-color: #41526f;
+  color: #5dfdd1; }
+
+#article-card {
+  border: 1px solid #41526f; }
+
+#article-card a:hover {
+  background-color: transparent;
+  color: #41526f; }
+
+.modal-body h1 {
+  border-bottom: 2px solid #5dfdd1; }
+
+.nav-pills .nav-link.active {
+  color: #41526f;
+  background-color: #5dfdd1; }
+
+.nav-pills a:visited {
+  color: #5dfdd1; }
+
+.nav-pills a:hover,
+.nav-item a:hover,
+#contact-button:hover,
+#contact-button-second:hover {
+  color: #41526f;
+  background-color: #5dfdd1; }
+
+#contact-button,
+#contact-button-second {
+  color: #5dfdd1;
+  cursor: pointer; }
+
+.sidebar-icons {
+  border-top: 2px solid #41526f; }
+  .sidebar-icons i:hover {
+    color: #41526f;
+    background-color: #5dfdd1; }
+
+.modal-section button,
+.modal-section-mobile button {
+  border: 2px solid #41526f; }
+
+.modal-section button:hover,
+.modal-section-mobile button:hover {
+  background-color: #41526f;
+  border-color: #41526f;
+  color: #5dfdd1; }
+
+.modal-section .btn:active,
+.modal-section .btn:focus {
+  background-color: #5dfdd1;
+  color: #41526f; }
+
+.close:hover {
+  color: #41526f;
+  background-color: #5dfdd1;
+  opacity: 1; }
+
+#send-btn {
+  border-color: #41526f !important;
+  background-color: #5dfdd1;
+  color: #41526f; }
+  #send-btn:hover {
+    background-color: #41526f;
+    color: #5dfdd1; }
+
+.home-icons {
+  border-top: 2px solid #41526f; }
+  .home-icons i:hover {
+    background-color: #5dfdd1;
+    color: #41526f; }
+
+#project-index a:visited {
+  color: black; }
+
+.project-body p::selection {
+  background: #5dfdd1; }
+
+.project-body a:hover {
+  color: #41526f; }
+
+#back-to-portfolio:hover {
+  background-color: #41526f;
+  color: #5dfdd1; }
+
+.project-dropdown-button:hover {
+  background-color: #41526f;
+  color: #5dfdd1; }
+
+#project-card {
+  border: 1px solid #41526f; }
+
+#project-card a:hover {
+  background-color: transparent;
+  color: #41526f; }
+
+.project-btn {
+  background-color: #ccf9ff;
+  color: #41526f; }
+  .project-btn a:hover {
+    color: #41526f; }
+
+/*# sourceMappingURL=colours.css.map */

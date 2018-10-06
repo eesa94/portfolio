@@ -1,0 +1,144 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*index.html*/
+/*Hero Container*/
+.hero-container {
+  background-image: url("../img/carolinie-cavalli-99609-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.header-container {
+  padding-top: 70px;
+}
+
+.header-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.header-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.button-container .row {
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.button-container a {
+  margin: 6px;
+  border: 1.6px solid #006bff;
+  color: #006bff;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.85rem;
+  letter-spacing: 2.5px;
+}
+
+.button-container .btn:hover {
+  color: #fff;
+  background-color: #006bff;
+  opacity: 0.8;
+}
+
+#view-blog {
+  text-align: right;
+}
+
+#view-work {
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  #view-blog,
+  #view-work {
+    text-align: center;
+
+  }
+
+}
+
+.thumbnail {
+  padding: 1.5em;
+}
+
+.img-thumbnail {
+  height: 25vh;
+  margin-bottom: 10px;
+  padding: 1.5px;
+  background-color: #e1ebf0;
+  border: 2px solid #4c4c4c;
+}
+
+.contact-thumbnail h3,
+.navbar-collapse h3 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-bottom: 7px;
+}
+
+.contact-thumbnail h6 {
+  font-size: 1.8rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.contact-thumbnail p {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.caption {
+  cursor: default;
+}
+
+.caption p a {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+}
+
+.home-icons {
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
+.home-icons a {
+  text-decoration: none;
+}
+
+.home-icons i {
+  width: 40px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+
+/*General styling*/
+a:hover {
+  text-decoration: none;
+}

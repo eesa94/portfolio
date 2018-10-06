@@ -1,0 +1,198 @@
+$primary: #41526f;
+$secondary: #5dfdd1;
+$tertiary: #ccf9ff;
+
+
+a {
+  color: $secondary;
+}
+
+.background-primary {
+  background-color: $primary;
+}
+
+.color-primary {
+  color: $primary;
+}
+
+.background-secondary {
+  background-color: $secondary;
+}
+
+.color-secondary {
+  color: $secondary;
+}
+
+.background-tertiary {
+  background-color: $tertiary;
+}
+
+.color-tertiary {
+  color: $tertiary;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px 7px $secondary;
+}
+
+#article-index a:visited {
+  color: black;
+}
+
+.unsplash-badge:hover {
+  color: $secondary;
+}
+
+.article-body p::selection {
+  background: $secondary
+}
+
+.article-body a:hover {
+  color: $primary;
+}
+
+.menu a:visited {
+  color: $primary;
+}
+
+#back-to-blog:hover {
+  background-color: $primary;
+  color: $secondary;
+}
+
+.blog-dropdown-button:hover {
+  background-color: $primary;
+  color: $secondary;
+}
+
+#article-card {
+  border: 1px solid $primary;
+}
+
+#article-card a:hover {
+  background-color: transparent;
+  color: $primary;
+}
+
+.modal-body {
+  h1 {
+    border-bottom: 2px solid $secondary;
+  }
+}
+
+.nav-pills .nav-link.active {
+  color: $primary;
+  background-color: $secondary;
+}
+
+.nav-pills a:visited {
+  color: $secondary;
+}
+
+.nav-pills a:hover,
+.nav-item a:hover,
+#contact-button:hover,
+#contact-button-second:hover {
+  color: $primary;
+  background-color: $secondary;
+}
+
+#contact-button,
+#contact-button-second {
+  color: $secondary;
+  cursor: pointer;
+}
+
+.sidebar-icons {
+  border-top: 2px solid $primary;
+
+  i:hover {
+    color: $primary;
+    background-color: $secondary;
+  }
+}
+
+.modal-section button,
+.modal-section-mobile button {
+  border: 2px solid $primary;
+}
+
+.modal-section button:hover,
+.modal-section-mobile button:hover {
+  background-color: $primary;
+  border-color: $primary;
+  color: $secondary;
+}
+
+
+.modal-section .btn:active,
+.modal-section .btn:focus {
+  background-color: $secondary;
+  color: $primary;
+}
+
+.close:hover {
+  color: $primary;
+  background-color: $secondary;
+  opacity: 1;
+}
+
+#send-btn {
+  border-color: $primary!important;
+  background-color: $secondary;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    color: $secondary;
+  }
+}
+
+.home-icons {
+  border-top: 2px solid $primary;
+
+  i:hover {
+    background-color: $secondary;
+    color: $primary;
+  }
+}
+
+#project-index a:visited {
+  color: black;
+}
+
+.project-body p::selection {
+  background: $secondary
+}
+
+.project-body a:hover {
+  color: $primary;
+}
+
+#back-to-portfolio:hover {
+  background-color: $primary;
+  color: $secondary;
+}
+
+.project-dropdown-button:hover {
+  background-color: $primary;
+  color: $secondary;
+}
+
+#project-card {
+  border: 1px solid $primary;
+}
+
+#project-card a:hover {
+  background-color: transparent;
+  color: $primary;
+}
+
+.project-btn {
+  background-color: $tertiary;
+  color: $primary;
+
+  a:hover {
+    color: $primary;
+  }
+}
