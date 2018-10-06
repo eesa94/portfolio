@@ -1,0 +1,156 @@
+.colour-swap {
+  font-size: 1.5rem;
+
+  i {
+    padding: 8px;
+  }
+}
+
+#swap-colour-btn {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#font-left {
+  color: white;
+}
+
+#font-right {
+  background-color: white;
+}
+
+#font-left,
+#font-right {
+  border: 1px solid lightgrey;
+}
+
+// Card styling
+.card {
+  cursor: default;
+  transition: 0.5s;
+  height: 100%;
+  box-shadow: 5px 5px 7px lightgrey;
+  h2, h4, p, i, li {
+    transition: 0.3s;
+  }
+}
+
+.card-default-lightblue {
+  border: 1px solid rgba(0,0,0,.125);
+  background: linear-gradient(140deg, #0154ad 0%, #085db9 51%, #0567d2 75%);
+  h2, h4, p, i, li {
+    color: white;
+  }
+  .card-header {
+    background-color: rgba(0,0,0,.03);
+  }
+}
+
+.card-hover-lightblue {
+  border: 1px solid #0154ad;
+  background-color: white;
+  h2, h4, p, i, li {
+    color: #0154ad;
+  }
+  .card-title {
+    border-color: #0154ad;
+  }
+  .card-header {
+    background-color: #0567d22b;
+  }
+}
+
+.card-default-pink {
+  border: 1px solid rgba(0,0,0,.125);
+  background: linear-gradient(140deg, #9c027b 0%, #a70684 51%, #b70791 75%);
+  h2, h4, p, i, li {
+    color: white;
+  }
+  .card-header {
+    background-color: rgba(0,0,0,.03);
+  }
+}
+
+.card-hover-pink {
+  border: 1px solid #9c027b;
+  background-color: white;
+  h2, h4, p, i, li {
+    color: #9c027b;
+  }
+  .card-title {
+    border-color: #9c027b;
+  }
+  .card-header {
+    background-color: #b7079130;
+  }
+}
+
+.card-default-blue {
+  border: 1px solid rgba(0,0,0,.125);
+  background: linear-gradient(140deg, #073465 0%, #0a4586 51%, #0d498c 75%);
+  h2, h4, p, i, li {
+    color: white;
+  }
+  .card-header {
+    background-color: rgba(0,0,0,.03);
+  }
+}
+
+.card-hover-blue {
+  border: 1px solid #073465;
+  background-color: white;
+  h2, h4, p, i, li {
+    color: #073465;
+  }
+  .card-title {
+    border-color: #073465;
+  }
+  .card-header {
+    background-color: #0d498c4a;
+  }
+}
+
+
+// Text styling
+.card-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  border-bottom: 1.5px solid white;
+  margin: 0 25px 7.5px;
+  padding-bottom: 3px;
+}
+
+.card-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+
+  p {
+    text-align: left;
+    padding: 5px 15px;
+  }
+
+  i,
+  li {
+    font-size: 1.8rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+
+  i {
+    margin-right: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: left;
+  }
+}

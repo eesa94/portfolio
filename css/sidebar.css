@@ -1,0 +1,139 @@
+.sidebar {
+  top: 0;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding: 20px 0;
+  transition: 0.5s; }
+
+.sidebar-thumbnail h3 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  margin-bottom: 7px; }
+
+.sidebar-thumbnail h6 {
+  font-size: 1.8rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px; }
+
+.sidebar-thumbnail p {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.5px; }
+
+.caption a {
+  color: black;
+  cursor: default; }
+  .caption a:hover {
+    text-decoration: none; }
+
+.sidebar a,
+.sidenav a {
+  background: none; }
+
+.sidebar-icons {
+  padding-top: 30px;
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: middle; }
+  .sidebar-icons a {
+    text-decoration: none; }
+  .sidebar-icons i {
+    width: 45px;
+    padding: 7px;
+    transition: 0.2s; }
+
+.icon p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 1.45rem;
+  color: #04497b; }
+
+.modal-section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 25px auto; }
+
+.modal-section button {
+  margin: 0 auto;
+  width: 45%;
+  padding: 15px 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  transition: 0.3s; }
+
+.modal-section-mobile {
+  height: 45px; }
+  .modal-section-mobile button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.45rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    height: 100%; }
+
+.sidebar-icons-mobile {
+  width: 60vw;
+  margin: 0 auto; }
+
+.fa-file-alt,
+.fa-envelope {
+  font-size: 6rem;
+  transition: 0.3s; }
+
+.modal-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  opacity: 0;
+  transition: 0.3s; }
+
+.modal-header {
+  display: block; }
+
+.modal-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: 700; }
+
+.close {
+  font-size: 2rem;
+  transition: 0.3s;
+  opacity: 1; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 30px;
+  right: 45px;
+  font-size: 5.5rem;
+  cursor: pointer;
+  color: black; }
+
+#contact-button,
+#contact-button-second {
+  cursor: pointer; }
+
+/*# sourceMappingURL=sidebar.css.map */

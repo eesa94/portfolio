@@ -1,0 +1,114 @@
+.colour-swap {
+  font-size: 1.5rem; }
+  .colour-swap i {
+    padding: 8px; }
+
+#swap-colour-btn {
+  margin: 0 10px;
+  cursor: pointer; }
+
+#font-left {
+  color: white; }
+
+#font-right {
+  background-color: white; }
+
+#font-left,
+#font-right {
+  border: 1px solid lightgrey; }
+
+.card {
+  cursor: default;
+  transition: 0.5s;
+  height: 100%;
+  box-shadow: 5px 5px 7px lightgrey; }
+  .card h2, .card h4, .card p, .card i, .card li {
+    transition: 0.3s; }
+
+.card-default-lightblue {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background: linear-gradient(140deg, #0154ad 0%, #085db9 51%, #0567d2 75%); }
+  .card-default-lightblue h2, .card-default-lightblue h4, .card-default-lightblue p, .card-default-lightblue i, .card-default-lightblue li {
+    color: white; }
+  .card-default-lightblue .card-header {
+    background-color: rgba(0, 0, 0, 0.03); }
+
+.card-hover-lightblue {
+  border: 1px solid #0154ad;
+  background-color: white; }
+  .card-hover-lightblue h2, .card-hover-lightblue h4, .card-hover-lightblue p, .card-hover-lightblue i, .card-hover-lightblue li {
+    color: #0154ad; }
+  .card-hover-lightblue .card-title {
+    border-color: #0154ad; }
+  .card-hover-lightblue .card-header {
+    background-color: #0567d22b; }
+
+.card-default-pink {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background: linear-gradient(140deg, #9c027b 0%, #a70684 51%, #b70791 75%); }
+  .card-default-pink h2, .card-default-pink h4, .card-default-pink p, .card-default-pink i, .card-default-pink li {
+    color: white; }
+  .card-default-pink .card-header {
+    background-color: rgba(0, 0, 0, 0.03); }
+
+.card-hover-pink {
+  border: 1px solid #9c027b;
+  background-color: white; }
+  .card-hover-pink h2, .card-hover-pink h4, .card-hover-pink p, .card-hover-pink i, .card-hover-pink li {
+    color: #9c027b; }
+  .card-hover-pink .card-title {
+    border-color: #9c027b; }
+  .card-hover-pink .card-header {
+    background-color: #b7079130; }
+
+.card-default-blue {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background: linear-gradient(140deg, #073465 0%, #0a4586 51%, #0d498c 75%); }
+  .card-default-blue h2, .card-default-blue h4, .card-default-blue p, .card-default-blue i, .card-default-blue li {
+    color: white; }
+  .card-default-blue .card-header {
+    background-color: rgba(0, 0, 0, 0.03); }
+
+.card-hover-blue {
+  border: 1px solid #073465;
+  background-color: white; }
+  .card-hover-blue h2, .card-hover-blue h4, .card-hover-blue p, .card-hover-blue i, .card-hover-blue li {
+    color: #073465; }
+  .card-hover-blue .card-title {
+    border-color: #073465; }
+  .card-hover-blue .card-header {
+    background-color: #0d498c4a; }
+
+.card-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px; }
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  border-bottom: 1.5px solid white;
+  margin: 0 25px 7.5px;
+  padding-bottom: 3px; }
+
+.card-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+  .card-text p {
+    text-align: left;
+    padding: 5px 15px; }
+  .card-text i,
+  .card-text li {
+    font-size: 1.8rem;
+    line-height: 25px;
+    letter-spacing: 1px; }
+  .card-text i {
+    margin-right: 10px; }
+  .card-text ul {
+    list-style-type: none;
+    text-align: left; }
+
+/*# sourceMappingURL=about.css.map */
