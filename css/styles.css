@@ -71,12 +71,6 @@ body {
   line-height: 1.8;
 }
 
-@media (max-width: 576px) {
-  .button-container .col-6 {
-    text-align: center;
-  }
-}
-
 .img-thumbnail {
   height: 250px;
   padding: 1.5px;
@@ -202,4 +196,20 @@ a:hover {
 
 #icon-6 {
   animation-delay: 1.2s;
+}
+
+
+/*Media */
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-inner {
+    padding-top: 20px;
+  }
+
+  .button-container .col-6 {
+    text-align: center;
+  }
 }
