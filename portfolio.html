@@ -272,21 +272,21 @@
             <h4 class="modal-title" id="myModalLabel">Send a Message</h4>
           </div>
           <div class="modal-body">
-            <%= form_with(url:"/thank_you", class: "custom-form", method: "post", local: true) do |form| %>
-                <div class="form-group contact-form-group mb2">
-                  <%= form.label :name %>
-                  <%= form.text_field :name, class: "form-control", placeholder: "*Please enter your name", required: true %>
-                </div>
-                <div class="form-group contact-form-group mb2">
-                  <%= form.label :email %>
-                  <%= form.text_field :email, class: "form-control", placeholder: "*Please enter your email", required: true  %>
-                </div>
-                <div class="form-group contact-form-group mb2">
-                  <%= form.label :message %>
-                  <%= form.text_area :message, class: "form-control", placeholder: "*Please write your message", rows: 5, required: true  %>
-                </div>
-              <%= form.submit "Send", class: "form_label btn", id: "send-btn" %>
-            <% end %>
+            <form class="custom-form">
+              <div class="form-group contact-form-group mb2">
+                <label for="name">Name</label>
+                <input class="form-control" placeholder="*Please enter your name" required="required" type="text" name="name" id="name">
+              </div>
+              <div class="form-group contact-form-group mb2">
+                <label for="email">Email</label>
+                <input class="form-control" placeholder="*Please enter your email" required="required" type="text" name="email" id="email">
+              </div>
+              <div class="form-group contact-form-group mb2">
+                <label for="message">Message</label>
+                <textarea class="form-control" placeholder="*Please write your message" rows="5" required="required" name="message" id="message"></textarea>
+              </div>
+              <input type="submit" name="commit" value="Send" class="form_label btn" id="send-btn" data-disable-with="Send">
+            </form>
           </div>
         </div>
       </div>

@@ -51,7 +51,12 @@
     max-width: 950px; } }
 .contact-form-group {
   width: 80%;
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto; }
+
+label,
+.form-control {
+  font-size: 1.5rem; }
 
 #send-btn {
   padding: 5px 15px;
