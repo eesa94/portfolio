@@ -1,18 +1,6 @@
-#project-index a:hover {
-  background-color: transparent;
-  text-decoration: none; }
-
-#project-index p {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400; }
-
-#project-index img {
+.project-img {
   margin-bottom: 15px;
   border-radius: 6px; }
-
-#project-col-item {
-  margin-bottom: 20px; }
 
 .project-panel {
   padding: 20px;
@@ -75,13 +63,6 @@
   text-align: justify;
   padding: 15px;
   box-shadow: 1px 1px 10px lightgrey; }
-
-.project-body,
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.8rem;
-  line-height: 25px;
-  letter-spacing: 1.5px; }
 
 .project-body a {
   transition: 0.3s; }
