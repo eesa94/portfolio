@@ -110,9 +110,10 @@ a {
 
 .home-icons {
   border-top: 2px solid #41526f; }
-  .home-icons i:hover {
-    background-color: #5dfdd1;
-    color: #41526f; }
+
+.fab:hover {
+  background-color: #5dfdd1;
+  color: #41526f; }
 
 #project-index a:visited {
   color: black; }

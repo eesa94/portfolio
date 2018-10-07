@@ -78,37 +78,25 @@ body {
 }
 
 .img-thumbnail {
-  height: 25vh;
-  margin-bottom: 10px;
+  height: 250px;
   padding: 1.5px;
   background-color: #e1ebf0;
   border: 2px solid #4c4c4c;
 }
 
-.contact-thumbnail h3,
-.navbar-collapse h3 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  letter-spacing: 0.5px;
+.my-name {
   margin-bottom: 7px;
-}
-
-.contact-thumbnail h6 {
-  font-size: 1.8rem;
+  font-size: 3rem;
   letter-spacing: 0.5px;
 }
 
-.contact-thumbnail p {
-  font-size: 1.6rem;
+.my-occupation {
+  font-size: 2.1rem;
   letter-spacing: 0.5px;
 }
 
 .caption {
   cursor: default;
-}
-
-.caption p a {
-  font-size: 1.5rem;
 }
 
 .home-icons {
@@ -120,7 +108,7 @@ body {
   text-decoration: none;
 }
 
-.home-icons i {
+.fab {
   width: 40px;
   padding: 10px;
   transition: 0.3s;

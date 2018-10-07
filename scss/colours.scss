@@ -150,11 +150,11 @@ a {
 
 .home-icons {
   border-top: 2px solid $primary;
+}
 
-  i:hover {
-    background-color: $secondary;
-    color: $primary;
-  }
+.fab:hover {
+  background-color: $secondary;
+  color: $primary;
 }
 
 #project-index a:visited {
