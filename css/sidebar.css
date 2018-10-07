@@ -42,7 +42,8 @@
   width: 60vw;
   margin: 0 auto; }
 
-.fas {
+.fa-envelope,
+.fa-file-alt {
   font-size: 6rem;
   transition: 0.3s; }
 

@@ -8,9 +8,7 @@
   box-shadow: 1px 1px 10px lightgrey; }
 
 .project-panel h4 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: 700;
   margin-bottom: 10px;
   letter-spacing: 1px;
   color: black; }
@@ -41,9 +39,10 @@
 .project-show h4 {
   font-size: 2rem; }
 
+.fa-external-link-alt {
+  font-size: 2rem; }
+
 .project-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
   font-size: 3rem;
   letter-spacing: 2.5px;
   margin-right: 50px;
@@ -63,6 +62,10 @@
   text-align: justify;
   padding: 15px;
   box-shadow: 1px 1px 10px lightgrey; }
+
+.project-body,
+p {
+  letter-spacing: 1.5px; }
 
 .project-body a {
   transition: 0.3s; }
