@@ -160,14 +160,6 @@ a:hover {
     opacity: 0.5;
 }
 
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
-}
-
 .justify {
   text-align: justify;
 }
@@ -175,6 +167,7 @@ a:hover {
 .smol-p {
   font-size: 1.3rem;
 }
+
 
 /*Animation styling*/
 .fadeIn {

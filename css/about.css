@@ -1,7 +1,6 @@
-.colour-swap {
-  font-size: 1.5rem; }
-  .colour-swap i {
-    padding: 8px; }
+.colour-swap i {
+  font-size: 1.5rem;
+  padding: 8px; }
 
 #swap-colour-btn {
   margin: 0 10px;
