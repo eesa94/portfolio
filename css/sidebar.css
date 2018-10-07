@@ -35,7 +35,8 @@
 .modal-section-mobile {
   height: 45px; }
   .modal-section-mobile button {
-    height: 100%; }
+    height: 100%;
+    font-size: 1.6rem; }
 
 .sidebar-icons-mobile {
   width: 60vw;
@@ -50,23 +51,9 @@
   opacity: 0;
   transition: 0.3s; }
 
-.modal-header {
-  display: block; }
-
-.modal-title {
-  font-family: 'Lato', sans-serif;
-  font-size: 2rem;
-  font-weight: 700; }
-
-.close {
-  font-size: 2rem;
-  transition: 0.3s;
-  opacity: 1; }
-
 .sidenav {
   height: 100%;
   width: 0;
-  /* 0 width - change this with JavaScript */
   position: fixed;
   z-index: 1;
   top: 0;
@@ -74,9 +61,7 @@
   overflow-x: hidden;
   /* Disable horizontal scroll */
   padding-top: 60px;
-  /* Place content 60px from the top */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidenav */ }
+  transition: 0.5s; }
 
 .sidenav .closebtn {
   position: absolute;

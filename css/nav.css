@@ -28,8 +28,6 @@
   #primary-navbar {
     display: none !important; } }
 .nav-link {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
   font-size: 1.8rem;
   margin: 5px;
   padding: 10px;

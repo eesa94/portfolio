@@ -1,5 +1,22 @@
-// CV modal
+// Modal general
+.modal-header {
+  display: block;
+}
 
+.modal-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.close {
+  font-size: 2rem;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+
+// CV modal
 .modal {
   top: 40px;
   padding-left: 0!important;
