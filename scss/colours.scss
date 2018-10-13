@@ -189,10 +189,14 @@ a {
 }
 
 .project-btn {
-  background-color: $tertiary;
-  color: $primary;
+  background-color: $primary;
+  color: $secondary;
 
-  a:hover {
-    color: $primary;
+  &:hover {
+    background-color: $secondary;
+
+    a, i {
+      color: $primary
+    }
   }
 }

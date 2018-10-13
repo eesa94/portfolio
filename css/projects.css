@@ -45,8 +45,10 @@
 
 @media (max-width: 576px) {
   .project-show {
-    margin-top: 75px;
-    padding-top: 30px; } }
+    margin-top: 66px; }
+
+  .project-background {
+    height: 400px; } }
 .project-show .img-fluid {
   height: auto; }
 
@@ -57,22 +59,23 @@
   font-size: 2rem; }
 
 .project-title {
-  font-size: 3rem;
-  letter-spacing: 2.5px;
-  margin-right: 50px;
-  margin-left: 50px; }
+  font-size: 4rem;
+  letter-spacing: 2.5px; }
 
 .project-btn {
   width: 160px;
   font-size: 1.8rem;
   border-radius: 5px;
-  transition: 0.2s; }
+  margin-bottom: 10px;
+  transition: 0.3s; }
+  .project-btn a, .project-btn i {
+    transition: 0.3s; }
   .project-btn a:hover {
     text-decoration: none; }
 
 .project-body {
   margin: 40px auto;
-  text-align: justify;
+  text-align: left;
   padding: 15px;
   box-shadow: 1px 1px 10px lightgrey; }
 

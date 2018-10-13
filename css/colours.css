@@ -140,9 +140,11 @@ a {
   color: #41526f; }
 
 .project-btn {
-  background-color: #ccf9ff;
-  color: #41526f; }
-  .project-btn a:hover {
-    color: #41526f; }
+  background-color: #41526f;
+  color: #5dfdd1; }
+  .project-btn:hover {
+    background-color: #5dfdd1; }
+    .project-btn:hover a, .project-btn:hover i {
+      color: #41526f; }
 
 /*# sourceMappingURL=colours.css.map */
