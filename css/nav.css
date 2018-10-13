@@ -20,10 +20,11 @@
 
 @media (min-width: 1200px) {
   .nav,
-  .main-section,
-  .article-show,
-  .project-show {
-    margin-left: 400px; } }
+  .main-section {
+    margin-left: 400px; }
+
+  .project-navbar {
+    margin-left: 0; } }
 @media (max-width: 767px) {
   #primary-navbar {
     display: none !important; } }

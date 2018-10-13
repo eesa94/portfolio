@@ -27,10 +27,12 @@
 
 @media (min-width: 1200px) {
   .nav,
-  .main-section,
-  .article-show,
-  .project-show {
+  .main-section, {
     margin-left: 400px;
+  }
+
+  .project-navbar {
+    margin-left: 0;
   }
 }
 

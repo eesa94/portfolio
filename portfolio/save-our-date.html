@@ -34,7 +34,7 @@
   <body>
 
     <!-- Primary navbar (hidden on xs) -->
-    <nav class="nav nav-pills flex-column flex-sm-row fixed-top background-primary" id="primary-navbar">
+    <nav class="nav project-navbar nav-pills flex-column flex-sm-row fixed-top background-primary" id="primary-navbar">
       <div class="brand d-xl-none background-secondary">
         <h3 class="color-primary">Eesa Patel</h3>
       </div>
@@ -71,7 +71,7 @@
     </nav>
 
     <!-- Primary sidebar (hidden on xs) -->
-    <div class="sidebar d-none d-xl-block background-secondary">
+    <!-- <div class="sidebar d-none d-xl-block background-secondary">
       <div class="sidebar-thumbnail">
         <div class="thumbnail">
           <img src="../img/headshot.jpg" class="img-fluid img-thumbnail mb1">
@@ -110,7 +110,7 @@
             <i class="fab fa-github animated flipInX background-primary color-secondary" id="icon-6" aria-hidden="true"></i>
           </a>
       </div>
-    </div>
+    </div> -->
 
     <!-- Secondary slideout sidebar (only visible on xs) -->
     <div id="mySidenav" class="d-xl-none sidenav background-secondary">
@@ -147,15 +147,24 @@
 
 
     <div class="project-show animated fadeIn">
-      <div class="row no-gutters">
-        <div class="col-10 offset-1 col-md-8 offset-md-2 mb3">
-          <img src="../img/saveourdate.jpg" class="img-fluid">
-        </div>
 
+      <div class="container-fluid project-background d-flex justify-content-center align-items-center" id="saveourdate">
+        <h1 class="project-show-header montserrat-7 white">Save Our Date</h1>
       </div>
+
+      <div class="project-button-row mt3 mb3">
+        <button type="button" class="btn project-btn project-link">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://saveourdate.netlify.com/" class="color-primary montserrat-5" target="_blank">Visit Site</a>
+        </button>
+        <button type="button" class="btn project-btn project-github">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/eesa94/savethedate" class="color-primary montserrat-5" target="_blank">View GitHub</a>
+        </button>
+      </div>
+
       <div class="row nm">
         <div class="col-sm-12">
-
           <div class="divider background-secondary">
           </div>
 
@@ -163,14 +172,7 @@
             Save Our Date
           </h3>
 
-          <button type="button" class="btn project-btn">
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://saveourdate.netlify.com/" class="color-primary" target="_blank">Visit site</a>
-          </button>
-
-
           <div class="container project-body">
-
             <h1 class="montserrat-6">A simple wedding announcement</h1>
 
             <br>

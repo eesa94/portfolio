@@ -25,9 +25,23 @@
   opacity: 0.9; }
 
 .project-show {
-  margin-top: 110px; }
+  margin-top: 77px; }
   .project-show .row {
     transition: 300ms; }
+
+.project-background {
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#saveourdate {
+  background-image: url("../img/rooftop_edit_tint.jpg"); }
+
+.project-show-header {
+  color: white;
+  font-size: 7rem; }
 
 @media (max-width: 576px) {
   .project-show {
@@ -49,9 +63,8 @@
   margin-left: 50px; }
 
 .project-btn {
+  width: 160px;
   font-size: 1.8rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
   border-radius: 5px;
   transition: 0.2s; }
   .project-btn a:hover {
