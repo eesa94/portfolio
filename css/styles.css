@@ -93,16 +93,16 @@ body {
   cursor: default;
 }
 
-.home-icons {
+.home-icons-container {
   font-size: 2rem;
   padding-top: 30px;
 }
 
-.home-icons a {
+.home-icons-contaniner a {
   text-decoration: none;
 }
 
-.fab {
+.home-icon {
   width: 40px;
   padding: 10px;
   transition: 0.3s;

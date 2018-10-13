@@ -148,11 +148,11 @@ a {
   }
 }
 
-.home-icons {
+.home-icons-container {
   border-top: 2px solid $primary;
 }
 
-.fab:hover {
+.home-icon:hover {
   background-color: $secondary;
   color: $primary;
 }
