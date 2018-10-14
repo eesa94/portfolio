@@ -1,4 +1,37 @@
 // Project index view styling
+.project-container {
+  width: 100%;
+}
+
+.project-hover-panel {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#project-4 {
+  background-image: url("../img/coconut-drink-on-beach_1920x1080.jpg");
+}
+
+#project-3 {
+  background-image: url("../img/david-marcu-125458-unsplash.jpg");
+}
+
+#project-2 {
+  background-image: url("../img/joanna-kosinska-346609-unsplash_crop_fade.jpg");
+}
+
+#project-1 {
+  background-image: url("../img/drift_2_crop.jpg");
+}
+
+.project-overlay {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
 .project-img {
   margin-bottom: 15px;
   border-radius: 6px;

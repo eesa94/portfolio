@@ -98,5 +98,14 @@ $(document).ready(function() {
     (this).removeClass('btn:focus');
   });
 
+  $('.project-hover-panel').hover(
+    function() {
+      $('.project-overlay', this).css('background-image', 'linear-gradient(to right, #41526f, #377a9e, #00a6c1, #00d2d2, #5dfdd1)');
+    },
+    function() {
+      $('.project-overlay', this).css('background-image', 'none');
+    }
+  );
+
 
 });

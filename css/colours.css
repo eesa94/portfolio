@@ -115,7 +115,7 @@ a {
   background-color: #5dfdd1;
   color: #41526f; }
 
-#project-index a:visited {
+.project-index a:visited {
   color: black; }
 
 .project-body p::selection {
