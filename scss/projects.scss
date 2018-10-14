@@ -52,9 +52,22 @@
   background-image: url("../img/rooftop_edit_tint.jpg");
 }
 
+#eurobiketours {
+  background-image: url("../img/david-marcu-125458-unsplash_edit.jpg");
+}
+
+#zenith {
+  background-image: url("../img/joanna-kosinska-346609-unsplash-tint.jpg");
+}
+
+#lowambition {
+  background-image: url("../img/drift_tint.jpg");
+}
+
 .project-show-header {
   color: white;
   font-size: 7rem;
+  text-shadow: 2px 2px 7px black;
 }
 
 @media (max-width: 576px) {
