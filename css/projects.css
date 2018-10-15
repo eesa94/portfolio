@@ -53,21 +53,28 @@
 .project-background {
   height: 700px;
   width: 100%;
+  padding: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
+.image-tint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4); }
+
 #saveourdate {
-  background-image: url("../img/rooftop_edit_tint.jpg"); }
+  background-image: url("../img/coconut-drink-on-beach_1920x1080.jpg"); }
 
 #eurobiketours {
-  background-image: url("../img/david-marcu-125458-unsplash_edit.jpg"); }
+  background-image: url("../img/david-marcu-125458-unsplash.jpg"); }
 
 #zenith {
-  background-image: url("../img/joanna-kosinska-346609-unsplash-tint.jpg"); }
+  background-image: url("../img/joanna-kosinska-346609-unsplash_crop_fade.jpg"); }
 
 #lowambition {
-  background-image: url("../img/drift_tint.jpg"); }
+  background-image: url("../img/drift_2_crop.jpg"); }
 
 .project-show-header {
   color: white;
