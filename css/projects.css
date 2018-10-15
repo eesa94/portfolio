@@ -32,8 +32,12 @@
 
 .project-overlay {
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
+  padding: 10px;
   background-image: linear-gradient(to right, rgba(65, 82, 111, 0.7), rgba(55, 122, 158, 0.7), rgba(0, 166, 193, 0.7), rgba(0, 210, 210, 0.7), rgba(93, 253, 209, 0.7));
   transition: 0.4s; }
 
