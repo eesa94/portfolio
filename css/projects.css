@@ -5,9 +5,6 @@
 .project-col {
   min-height: 400px; }
 
-@media (max-width: 991px) {
-  .project-col {
-    margin-bottom: 20px; } }
 .project-hover-panel {
   position: absolute;
   top: 0;
@@ -75,12 +72,6 @@
   font-size: 7rem;
   text-shadow: 2px 2px 7px black; }
 
-@media (max-width: 576px) {
-  .project-show {
-    margin-top: 66px; }
-
-  .project-background {
-    height: 400px; } }
 .project-show .img-fluid {
   height: auto; }
 
@@ -146,5 +137,18 @@ p {
 
 .fa-level-down {
   margin-left: 5px; }
+
+@media (max-width: 991px) {
+  .project-col {
+    margin-bottom: 20px; }
+
+  .project-show {
+    margin-top: 75px; }
+
+  .project-background {
+    height: 400px; } }
+@media (max-width: 576px) {
+  .project-show {
+    margin-top: 66px; } }
 
 /*# sourceMappingURL=projects.css.map */
