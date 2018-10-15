@@ -98,14 +98,5 @@ $(document).ready(function() {
     (this).removeClass('btn:focus');
   });
 
-  $('.project-hover-panel').hover(
-    function() {
-      $('.project-overlay', this).css('opacity','1');
-    },
-    function() {
-      $('.project-overlay', this).css('opacity', '0');
-    }
-  );
-
 
 });
