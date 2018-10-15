@@ -22,34 +22,7 @@ a {
 .box-shadow {
   box-shadow: 2px 2px 7px #5dfdd1; }
 
-#article-index a:visited {
-  color: black; }
-
-.unsplash-badge:hover {
-  color: #5dfdd1; }
-
-.article-body p::selection {
-  background: #5dfdd1; }
-
-.article-body a:hover {
-  color: #41526f; }
-
 .menu a:visited {
-  color: #41526f; }
-
-#back-to-blog:hover {
-  background-color: #41526f;
-  color: #5dfdd1; }
-
-.blog-dropdown-button:hover {
-  background-color: #41526f;
-  color: #5dfdd1; }
-
-#article-card {
-  border: 1px solid #41526f; }
-
-#article-card a:hover {
-  background-color: transparent;
   color: #41526f; }
 
 .modal-body h1 {

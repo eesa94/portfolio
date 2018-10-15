@@ -98,14 +98,14 @@ $(document).ready(function() {
     (this).removeClass('btn:focus');
   });
 
-  // $('.project-hover-panel').hover(
-  //   function() {
-  //     $('.project-overlay', this).css('background-image', 'linear-gradient(to right, rgba(65, 82, 111, 0.7), rgba(55, 122, 158, 0.7), rgba(0, 166, 193, 0.7), rgba(0, 210, 210, 0.7), rgba(93, 253, 209, 0.7))');
-  //   },
-  //   function() {
-  //     $('.project-overlay', this).css('background-image', 'none');
-  //   }
-  // );
+  $('.project-hover-panel').hover(
+    function() {
+      $('.project-overlay', this).css('opacity','1');
+    },
+    function() {
+      $('.project-overlay', this).css('opacity', '0');
+    }
+  );
 
 
 });

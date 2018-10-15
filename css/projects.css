@@ -1,12 +1,22 @@
 .project-container {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 150px; }
 
+.project-col {
+  min-height: 400px; }
+
+@media (max-width: 991px) {
+  .project-col {
+    margin-bottom: 20px; } }
 .project-hover-panel {
-  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s; }
+  background-size: cover; }
 
 #project-4 {
   background-image: url("../img/coconut-drink-on-beach_1920x1080.jpg"); }
@@ -21,33 +31,16 @@
   background-image: url("../img/drift_2_crop.jpg"); }
 
 .project-overlay {
+  opacity: 0;
   width: 100%;
   height: 100%;
-  background-image: none;
-  transition: 0.3s; }
-  .project-overlay:hover {
-    background-image: linear-gradient(to right, rgba(65, 82, 111, 0.7), rgba(55, 122, 158, 0.7), rgba(0, 166, 193, 0.7), rgba(0, 210, 210, 0.7), rgba(93, 253, 209, 0.7)); }
+  background-image: linear-gradient(to right, rgba(65, 82, 111, 0.7), rgba(55, 122, 158, 0.7), rgba(0, 166, 193, 0.7), rgba(0, 210, 210, 0.7), rgba(93, 253, 209, 0.7));
+  transition: 0.4s; }
 
-.project-img {
-  margin-bottom: 15px;
-  border-radius: 6px; }
-
-.project-panel h4 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-  color: black; }
-
-.project-panel h5 {
-  font-size: 1.6rem;
-  font-weight: 400; }
-
-.project-panel img {
-  transition: 0.3s; }
-
-.project-panel img:hover {
-  transform: scale(1.035);
-  opacity: 0.9; }
+.project-title {
+  font-size: 4rem;
+  letter-spacing: 2.5px;
+  text-shadow: 1px 1px 4px black; }
 
 .project-show {
   margin-top: 77px; }
@@ -92,10 +85,6 @@
 
 .fa-external-link-alt {
   font-size: 2rem; }
-
-.project-title {
-  font-size: 4rem;
-  letter-spacing: 2.5px; }
 
 .project-btn {
   width: 160px;

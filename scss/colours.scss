@@ -35,42 +35,7 @@ a {
   box-shadow: 2px 2px 7px $secondary;
 }
 
-#article-index a:visited {
-  color: black;
-}
-
-.unsplash-badge:hover {
-  color: $secondary;
-}
-
-.article-body p::selection {
-  background: $secondary
-}
-
-.article-body a:hover {
-  color: $primary;
-}
-
 .menu a:visited {
-  color: $primary;
-}
-
-#back-to-blog:hover {
-  background-color: $primary;
-  color: $secondary;
-}
-
-.blog-dropdown-button:hover {
-  background-color: $primary;
-  color: $secondary;
-}
-
-#article-card {
-  border: 1px solid $primary;
-}
-
-#article-card a:hover {
-  background-color: transparent;
   color: $primary;
 }
 
