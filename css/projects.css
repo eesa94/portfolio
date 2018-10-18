@@ -3,7 +3,7 @@
   margin-bottom: 150px; }
 
 .project-col {
-  min-height: 400px; }
+  min-height: 600px; }
 
 .project-hover-panel {
   position: absolute;
@@ -147,6 +147,9 @@ p {
 .fa-level-down {
   margin-left: 5px; }
 
+@media (max-width: 1199px) {
+  .project-col {
+    min-height: 400px; } }
 @media (max-width: 991px) {
   .project-col {
     margin-bottom: 20px;

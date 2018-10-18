@@ -1,7 +1,7 @@
 // Primary Navbar styling
 .nav {
   padding: 10px 20px;
-  transition: top 0.3s;
+  transition: 0.3s;
 }
 
 .brand {
@@ -22,17 +22,6 @@
 
   a:hover {
     text-decoration: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  .nav,
-  .main-section, {
-    margin-left: 400px;
-  }
-
-  .project-navbar {
-    margin-left: 0;
   }
 }
 

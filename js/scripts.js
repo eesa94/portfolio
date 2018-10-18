@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
   // Collapsed mobile navbar effects
-  let state = 0;
+  let mobileOpen = 0;
 
   let open = () => {
     $('.main-section, .article-show .row, .project-show .row').css('opacity', '0.5');
@@ -48,26 +48,42 @@ $(document).ready(function() {
 
   $('.navbar-toggler').click(function() {
 
-    if (state === 0) {
+    if (mobileOpen === 0) {
       open();
-      state = 1;
+      mobileOpen = 1;
 
-    } else if (state === 1) {
+    } else if (mobileOpen === 1) {
       close();
-      state = 0;
+      mobileOpen = 0;
     }
   });
 
-  // Open sidenav
-  $('#contact-button, #contact-button-second').click(function() {
+  // Open desktop sidebar
+  let sidebarOpen = 0;
+
+  $('#contact-button').click(function() {
+    if (sidebarOpen === 0) {
+      $('.nav, .main-section').css('margin-left', '400px');
+      $('.sidebar').css('left', '0');
+      sidebarOpen = 1;
+    } else if (sidebarOpen === 1) {
+      $('.nav, .main-section').css('margin-left', '0');
+      $('.sidebar').css('left', '-400px');
+      sidebarOpen = 0;
+    }
+  });
+
+
+  // Open mobile slideout
+  $('#contact-button-second').click(function() {
     $('#mySidenav').css('width', '100%');
     $('#primary-navbar, #secondary-navbar').css('display', 'none');
     $('#xs-menu').removeClass('show');
     close();
-    state = 0;
+    mobileOpen = 0;
   });
 
-  // Close sidenav
+  // Close mobile slideout
   $('.closebtn').click(function() {
     $('#mySidenav').css('width', '0');
     $('#primary-navbar, #secondary-navbar').css('display', 'flex');
