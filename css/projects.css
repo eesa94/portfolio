@@ -1,3 +1,8 @@
+.project-index,
+.project-container {
+  padding-left: 0;
+  padding-right: 0; }
+
 .project-container {
   width: 100%;
   margin-bottom: 150px; }
@@ -152,22 +157,20 @@ p {
     min-height: 400px; } }
 @media (max-width: 991px) {
   .project-col {
-    margin-bottom: 20px;
-    min-height: 250px; }
+    min-height: 500px; }
 
   .project-show {
     margin-top: 75px; }
 
   .project-background {
-    height: 400px; }
-
-  .project-overlay {
-    opacity: 1;
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.5); } }
+    height: 400px; } }
 @media (max-width: 576px) {
   .project-show {
     margin-top: 66px; }
+
+  .project-overlay {
+    opacity: 1;
+    background-image: none; }
 
   .project-title {
     font-size: 3rem; } }

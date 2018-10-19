@@ -1,4 +1,10 @@
 // Project index view styling
+.project-index,
+.project-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .project-container {
   width: 100%;
   margin-bottom: 150px;
@@ -200,8 +206,8 @@ p {
 
 @media (max-width: 991px) {
   .project-col {
-    margin-bottom: 20px;
-    min-height: 250px;
+    // margin-bottom: 20px;
+    min-height: 500px;
   }
 
   .project-show {
@@ -212,17 +218,22 @@ p {
     height: 400px;
   }
 
-  .project-overlay {
-    opacity: 1;
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+  // .project-overlay {
+  //   opacity: 1;
+  //   background-image: none;
+  //   background-color: rgba(0, 0, 0, 0.5);
+  // }
 
 }
 
 @media (max-width: 576px) {
   .project-show {
     margin-top: 66px;
+  }
+
+  .project-overlay {
+    opacity: 1;
+    background-image: none;
   }
 
   .project-title {
