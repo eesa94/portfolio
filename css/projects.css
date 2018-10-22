@@ -157,14 +157,17 @@ p {
     min-height: 400px; } }
 @media (max-width: 991px) {
   .project-col {
-    min-height: 500px; }
+    min-height: 450px; }
 
   .project-show {
     margin-top: 75px; }
 
   .project-background {
     height: 400px; } }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
+  .project-col {
+    min-height: 400px; } }
+@media (max-width: 575px) {
   .project-show {
     margin-top: 66px; }
 

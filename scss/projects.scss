@@ -206,8 +206,7 @@ p {
 
 @media (max-width: 991px) {
   .project-col {
-    // margin-bottom: 20px;
-    min-height: 500px;
+    min-height: 450px;
   }
 
   .project-show {
@@ -218,15 +217,15 @@ p {
     height: 400px;
   }
 
-  // .project-overlay {
-  //   opacity: 1;
-  //   background-image: none;
-  //   background-color: rgba(0, 0, 0, 0.5);
-  // }
-
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
+  .project-col {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 575px) {
   .project-show {
     margin-top: 66px;
   }
