@@ -50,11 +50,9 @@ a {
   color: #5dfdd1;
   cursor: pointer; }
 
-.sidebar-icons {
-  border-top: 2px solid #41526f; }
-  .sidebar-icons i:hover {
-    color: #41526f;
-    background-color: #5dfdd1; }
+footer i:hover {
+  color: #41526f;
+  background-color: #5dfdd1; }
 
 .modal-section button,
 .modal-section-mobile button {

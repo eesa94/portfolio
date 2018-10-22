@@ -72,13 +72,9 @@ a {
   cursor: pointer;
 }
 
-.sidebar-icons {
-  border-top: 2px solid $primary;
-
-  i:hover {
-    color: $primary;
-    background-color: $secondary;
-  }
+footer i:hover {
+  color: $primary;
+  background-color: $secondary;
 }
 
 .modal-section button,
