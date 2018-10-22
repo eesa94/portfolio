@@ -35,7 +35,19 @@
   top: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(65, 82, 111, 0.9);
   z-index: 200;
   transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+
+  .nav-open {
+    top: 25px;
+    right: 6px;
+  }
+
 }

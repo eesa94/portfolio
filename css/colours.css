@@ -39,16 +39,9 @@ a {
   color: #5dfdd1; }
 
 .nav-pills a:hover,
-.nav-item a:hover,
-#contact-button:hover,
-#contact-button-second:hover {
-  color: #41526f;
-  background-color: #5dfdd1; }
-
-#contact-button,
-#contact-button-second {
+.nav-item a:hover {
   color: #5dfdd1;
-  cursor: pointer; }
+  opacity: 0.7; }
 
 footer i:hover {
   color: #41526f;
