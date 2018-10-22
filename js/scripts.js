@@ -7,13 +7,13 @@ $(document).ready(function() {
   $('.nav-open').click(function() {
     if (navOpen === 0) {
       $(this).toggleClass('is-active');
-      $('#nav-menu').css('top', '0');
+      $('.nav-menu').css('top', '0');
       $('.navbar-nav').toggleClass('fadeIn');
       navOpen = 1;
     }
     else if (navOpen === 1) {
       $(this).toggleClass('is-active');
-      $('#nav-menu').css('top', '-100%');
+      $('.nav-menu').css('top', '-100%');
       $('.navbar-nav').toggleClass('fadeIn');
       navOpen = 0;
     }
@@ -49,63 +49,6 @@ $(document).ready(function() {
 
   // Alert message animation
   $('.alert').addClass('animated alert-animation fadeOut');
-
-
-  // Open desktop sidebar
-  let sidebarOpen = 0;
-
-  $('#contact-button').click(function() {
-    if (sidebarOpen === 0) {
-      $('.nav, .main-section').css('margin-left', '400px');
-      $('.sidebar').css('left', '0');
-      sidebarOpen = 1;
-    } else if (sidebarOpen === 1) {
-      $('.nav, .main-section').css('margin-left', '0');
-      $('.sidebar').css('left', '-400px');
-      sidebarOpen = 0;
-    }
-  });
-
-
-  // Open mobile slideout
-  $('#contact-button-second').click(function() {
-    $('#mySidenav').css('width', '100%');
-    $('#primary-navbar, #secondary-navbar').css('display', 'none');
-    $('#xs-menu').removeClass('show');
-    close();
-    navOpen = 0;
-  });
-
-  // Close mobile slideout
-  $('.closebtn').click(function() {
-    $('#mySidenav').css('width', '0');
-    $('#primary-navbar, #secondary-navbar').css('display', 'flex');
-  });
-
-  // Modal buttons in the sidebar
-  $('#resume-btn').hover(
-    function() {
-      $('#resume-caption').css('opacity', '1');
-      $('.fa-file-alt').addClass('color-secondary').removeClass('color-primary');
-    }, function() {
-      $('#resume-caption').css('opacity', '0');
-      $('.fa-file-alt').removeClass('color-secondary').addClass('color-primary');
-    }
-  );
-
-  $('#message-btn').hover(
-    function() {
-      $('#message-caption').css('opacity', '1');
-      $('.fa-envelope').addClass('color-secondary').removeClass('color-primary');
-    }, function() {
-      $('#message-caption').css('opacity', '0');
-      $('.fa-envelope').removeClass('color-secondary').addClass('color-primary');
-    }
-  );
-
-  $('#resume-btn').click(function() {
-    (this).removeClass('btn:focus');
-  });
 
 
 });

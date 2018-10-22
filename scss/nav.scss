@@ -1,18 +1,26 @@
-// .nav {
-//   padding: 10px 20px;
-//   transition: 0.3s;
-// }
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  padding: 5px 40px;
+  z-index: 100;
+  transition: 0.3s;
+}
 
-.brand {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0;
-  border-radius: 3px;
+.brand-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 4.5rem;
+  margin: 0;
+}
 
-  a:hover {
-    text-decoration: none;
-  }
+.nav-open {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 300;
 }
 
 .nav-link {
@@ -22,29 +30,12 @@
   transition: 0.3s;
 }
 
-
-#secondary-navbar {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  transition: 0.3s;
-}
-
-.nav-open {
-  position: fixed;
-  top: 20px;
-  right: 10px;
-  z-index: 300;
-}
-
-#nav-menu {
+.nav-menu {
   position: fixed;
   top: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 200;
   transition: 0.3s;
 }
