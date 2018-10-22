@@ -218,6 +218,10 @@ a:hover {
   .button-container .col-6 {
     text-align: center;
   }
+
+  .img-thumbnail {
+    height: 150px;
+  }
 }
 
 
