@@ -1,6 +1,24 @@
 // document ready functions
 $(document).ready(function() {
-  $('#body-content').css('opacity', '1.0');
+
+  // Open/close nav menu
+  let navOpen = 0;
+
+  $('.nav-open').click(function() {
+    if (navOpen === 0) {
+      $(this).toggleClass('is-active');
+      $('#nav-menu').css('top', '0');
+      $('.navbar-nav').toggleClass('fadeIn');
+      navOpen = 1;
+    }
+    else if (navOpen === 1) {
+      $(this).toggleClass('is-active');
+      $('#nav-menu').css('top', '-100%');
+      $('.navbar-nav').toggleClass('fadeIn');
+      navOpen = 0;
+    }
+  })
+
 
   // Toggle card colours in about section
   let fill = 0;
@@ -33,31 +51,6 @@ $(document).ready(function() {
   $('.alert').addClass('animated alert-animation fadeOut');
 
 
-  // Collapsed mobile navbar effects
-  let mobileOpen = 0;
-
-  let open = () => {
-    $('.main-section, .article-show .row, .project-show .row').css('opacity', '0.5');
-    $('#nav-toggle-icon').css('transform', 'rotate(180deg)');
-  };
-
-  let close = () => {
-    $('.main-section, .article-show .row, .project-show .row').css('opacity', '1.0');
-    $('#nav-toggle-icon').css('transform', 'rotate(0deg)');
-  };
-
-  $('.navbar-toggler').click(function() {
-
-    if (mobileOpen === 0) {
-      open();
-      mobileOpen = 1;
-
-    } else if (mobileOpen === 1) {
-      close();
-      mobileOpen = 0;
-    }
-  });
-
   // Open desktop sidebar
   let sidebarOpen = 0;
 
@@ -80,7 +73,7 @@ $(document).ready(function() {
     $('#primary-navbar, #secondary-navbar').css('display', 'none');
     $('#xs-menu').removeClass('show');
     close();
-    mobileOpen = 0;
+    navOpen = 0;
   });
 
   // Close mobile slideout

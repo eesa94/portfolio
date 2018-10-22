@@ -45,6 +45,10 @@ a {
   }
 }
 
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  background-color: $secondary!important;
+}
+
 .nav-pills .nav-link.active {
   color: $primary;
   background-color: $secondary;

@@ -28,6 +28,9 @@ a {
 .modal-body h1 {
   border-bottom: 2px solid #5dfdd1; }
 
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  background-color: #5dfdd1 !important; }
+
 .nav-pills .nav-link.active {
   color: #41526f;
   background-color: #5dfdd1; }

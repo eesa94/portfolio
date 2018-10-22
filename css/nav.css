@@ -1,43 +1,39 @@
-.nav {
-  padding: 10px 20px;
-  transition: 0.3s; }
-
 .brand {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px 0;
   border-radius: 3px; }
-  .brand h3 {
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    letter-spacing: 0.5px;
-    margin-bottom: 0;
-    padding: 0 10px;
-    cursor: default; }
   .brand a:hover {
     text-decoration: none; }
 
-@media (max-width: 767px) {
-  #primary-navbar {
-    display: none !important; } }
 .nav-link {
-  font-size: 1.8rem;
+  font-size: 5rem;
   margin: 5px;
   padding: 10px;
   transition: 0.3s; }
 
-#secondary-navbar .brand {
-  margin: 10px 0; }
-  #secondary-navbar .brand h3 {
-    padding: 4px 10px;
-    line-height: 1.5; }
+#secondary-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: 0.3s; }
 
-.navbar-toggler {
-  width: 40px;
-  height: 30px; }
-  .navbar-toggler i {
-    transition: 300ms;
-    font-size: 2rem; }
+.nav-open {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  z-index: 300; }
+
+#nav-menu {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 200;
+  transition: 0.3s; }
 
 /*# sourceMappingURL=nav.css.map */
