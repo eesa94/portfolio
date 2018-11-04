@@ -19,19 +19,24 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-#project-5 {
+#project-5,
+#seoulfood {
   background-image: url("../img/gimbap.jpg"); }
 
-#project-4 {
+#project-4,
+#saveourdate {
   background-image: url("../img/coconut-drink-on-beach_1920x1080.jpg"); }
 
-#project-3 {
+#project-3,
+#eurobiketours {
   background-image: url("../img/david-marcu-125458-unsplash.jpg"); }
 
-#project-2 {
+#project-2,
+#zenith {
   background-image: url("../img/joanna-kosinska-346609-unsplash_crop_fade.jpg"); }
 
-#project-1 {
+#project-1,
+#lowambition {
   background-image: url("../img/drift_2_crop.jpg"); }
 
 .project-overlay {
@@ -70,18 +75,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4); }
-
-#saveourdate {
-  background-image: url("../img/coconut-drink-on-beach_1920x1080.jpg"); }
-
-#eurobiketours {
-  background-image: url("../img/david-marcu-125458-unsplash.jpg"); }
-
-#zenith {
-  background-image: url("../img/joanna-kosinska-346609-unsplash_crop_fade.jpg"); }
-
-#lowambition {
-  background-image: url("../img/drift_2_crop.jpg"); }
 
 .project-show-header {
   color: white;
