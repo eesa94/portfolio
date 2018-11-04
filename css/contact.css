@@ -1,0 +1,27 @@
+.contact-index {
+  padding-top: 130px;
+}
+
+/* form */
+.contact-form-group {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+}
+
+label,
+.form-control {
+  font-size: 1.5rem;
+}
+
+#send-btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 2px solid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
