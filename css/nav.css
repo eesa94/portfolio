@@ -46,6 +46,10 @@
   z-index: 200;
   transition: 0.3s; }
 
+@media (max-width: 767px) {
+  .slash,
+  .navbar-header {
+    display: none; } }
 @media (max-width: 575px) {
   .navbar {
     padding: 5px 10px; }
