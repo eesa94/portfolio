@@ -1,5 +1,6 @@
 .navbar {
   position: fixed;
+  justify-content: flex-start;
   width: 100%;
   height: 80px;
   top: 0;
@@ -13,7 +14,19 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 4.5rem;
+  margin: 0 20px 0 0;
+}
+
+.slash {
+  margin-right: 10px;
+  font-size: 3.5rem;
+}
+
+.navbar-header {
+  position: relative;
+  top: 3px;
   margin: 0;
+  font-size: 3rem;
 }
 
 .nav-open {
