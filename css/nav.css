@@ -46,7 +46,7 @@
   z-index: 200;
   transition: 0.3s; }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .slash,
   .navbar-header {
     display: none; } }
