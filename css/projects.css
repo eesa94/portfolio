@@ -19,6 +19,10 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
+#project-7,
+#apexautomotive {
+  background-image: url("../img/wallhaven-634721.jpg"); }
+
 #project-6,
 #travelplan {
   background-image: url("../img/mountains.png");
